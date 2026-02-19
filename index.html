@@ -1,1 +1,144 @@
-><
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>포트폴리오 | 한서희</title>
+    <style>
+        /* 기본 스타일 설정 */
+        :root {
+            --primary-color: #2563eb;
+            --text-color: #333;
+            --bg-color: #f8fafc;
+        }
+
+        body {
+            font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, Roboto, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background: white;
+            border-bottom: 1px solid #e2e8f0;
+            padding: 2rem 1rem;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem 1rem;
+        }
+
+        /* 섹션 스타일 */
+        section {
+            background: white;
+            margin-bottom: 2rem;
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 { margin: 0; color: var(--primary-color); font-size: 2.5rem; }
+        h2 { border-left: 5px solid var(--primary-color); padding-left: 10px; margin-top: 0; }
+
+        .contact {
+            margin-top: 10px;
+            color: #64748b;
+        }
+
+        .contact a {
+            color: var(--primary-color);
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        /* 기술 스택 태그 */
+        .badge {
+            display: inline-block;
+            background: #dbeafe;
+            color: #1e40af;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            margin: 4px;
+            font-weight: 500;
+        }
+
+        .project-item {
+            margin-bottom: 1.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid #f1f5f9;
+        }
+
+        .project-item:last-child { border-bottom: none; }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: #94a3b8;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>홍길동</h1>
+    <p style="font-size: 1.2rem; color: #475569;">신입 프론트엔드 개발자</p>
+    <div class="contact">
+        📧 <a href="mailto:your-email@gmail.com">your-email@gmail.com</a> | 
+        🔗 <a href="https://github.com/putto4u" target="_blank">GitHub</a>
+    </div>
+</header>
+
+<div class="container">
+    <section>
+        <h2>소개 (About Me)</h2>
+        <p>
+            안녕하세요! 문제 해결 과정에서 즐거움을 느끼는 개발자 한서희입니다. 
+            단순히 코드를 짜는 것에 그치지 않고, 사용자 경험을 개선하기 위해 끊임없이 고민합니다.
+        </p>
+    </section>
+
+    <section>
+        <h2>기술 스택 (Skills)</h2>
+        <div>
+            <span class="badge">HTML5</span>
+            <span class="badge">CSS3</span>
+            <span class="badge">JavaScript</span>
+            <span class="badge">React</span>
+            <span class="badge">GitHub</span>
+        </div>
+    </section>
+
+    <section>
+        <h2>프로젝트 (Projects)</h2>
+        <div class="project-item">
+            <h3>🚀 나만의 이력서 웹사이트</h3>
+            <p>GitHub Pages를 활용하여 제작한 개인 포트폴리오 사이트입니다.</p>
+            <small>#HTML #CSS #GitHub-Pages</small>
+        </div>
+        <div class="project-item">
+            <h3>📱 할 일 관리(To-Do) 앱</h3>
+            <p>자바스크립트를 활용하여 일정을 관리하고 데이터를 저장하는 웹 앱입니다.</p>
+            <small>#JavaScript #LocalStorage</small>
+        </div>
+    </section>
+
+    <section>
+        <h2>교육 (Education)</h2>
+        <p><strong>OO대학교</strong> - 컴퓨터공학 전공 (2020.03 - 2024.02)</p>
+    </section>
+</div>
+
+<footer>
+    © 2026 홍길동. Powered by GitHub Pages.
+</footer>
+
+</body>
+</html>
